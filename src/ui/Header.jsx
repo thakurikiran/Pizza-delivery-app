@@ -3,7 +3,7 @@ import SearchOrder from "../features/order/SearchOrder";
 import UserName from "../features/user/UserName";
 function Header() {
   return (
-    <header className="px- border-b-2 border-stone-500 bg-yellow-500 px-4 py-3  smuppercase">
+    <header className="flex items-center justify-between border-b-2 border-stone-500 bg-yellow-400 px-4 py-3 uppercase sm:px-6">
       <Link to="/" className="tracking-widest">
         Fast React Pizza Go.
       </Link>
